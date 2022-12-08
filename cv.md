@@ -5,6 +5,7 @@
   * **Skill 1**: *Basic concepts of syntax Python* 
   * **Skill 2**: *Read electrical schematics*
   * **Skill 3**: *Technical maintenance of navigation equipment*
+* **Code example:**
 ```
 function multiply(a, b){
  a * b;
