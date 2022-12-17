@@ -1,0 +1,98 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+body {
+    font-family: 'Roboto', sans-serif;
+    }
+* {
+    box-sizing: border-box;
+    }
+.header-text {
+    color:#d0b084;
+    
+}
+.common-text {
+    color:#000000;
+}
+h1 {
+    color:#d0b084;
+    margin-bottom: 0.25em;
+}
+h2 {
+    color:#000000;
+    font-size: 1em;
+    margin-bottom: 1em;
+    margin-top:0
+}
+a {
+    color:#000000;
+
+}
+.contacs {
+    margin-bottom:2em;
+}
+.contact {
+    display:flex;
+}
+.contact_type {
+    min-width:90px;
+}
+
+.experience {
+    display:flex;
+    background-color: #d0b084;
+
+}
+
+.experience-date {
+    min-width:200px;    
+}
+.education-date {
+    min-width:200px;    
+}
+.education {
+    display:flex;
+}
+.education {
+    display:flex;
+}
+.education-description {
+    margin-bottom: 2em;
+}
+body {
+    min-height: 100vh;
+    margin:0;
+    padding:0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list {
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    flex-wrap:wrap;
+    background-color:#d0b084;
+}
+.nav-list a {
+    display:inline-block;
+  padding:30px;
+}
+.nav-list li{
+    display:inline;
+}
+.description {
+    background-color: aqua;
+}
+.footer-name {
+    color:black;
+    font-size: 55px;
+    background-color:#d0b084;
+}
