@@ -1,14 +1,15 @@
 
-h1 {
+h1, h2 {
     color:#d0b084;
     margin-bottom: 0.25em;
     text-transform: uppercase;
 }
 
-h2 {
+h3 {
     color:#000000;
-    font-size: 1em;
-} 
+    margin-bottom: 0.25em;
+    text-transform: uppercase;
+}
 
 .experience {
     display:flex;
@@ -34,7 +35,9 @@ body {
     flex-direction: column;
     justify-content:space-between;
     font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;   
+    box-sizing: border-box;
+    font-size: 20px;
+       
 }
 
 .nav-list {
@@ -85,7 +88,8 @@ html {
     display: flex; 
     flex-wrap: wrap;
     max-width: 1440px;
-    margin: 0 auto;    
+    margin: 0 auto;
+        
 }
   
 .section {
@@ -122,16 +126,16 @@ html {
     margin: 0 auto;    
 }
 
-.container-fix {
-     
+.container-fix { 
     flex-wrap: wrap;
     max-width: 1440px;
     margin: 0 auto;    
 }
 .avatar {
-    position: relative;
+    /* position: relative;
     bottom: 50px;
-    left: 170px;
+    left: 170px; */
+    float: right;
     
    
     
@@ -146,23 +150,24 @@ html {
 
 .section-profile-title {
     position: relative; 
-    left:825px;
-    top: 90px; 
+    /* left:825px;
+    top: 90px; */ 
     letter-spacing: 0.10em;
     display:flex;
     flex-wrap: wrap;
-    /* float: right;
-    margin: 0 auto;
+    float: left;
+    font-size: 38px;
+    /* margin: 0 auto;
     line-height: 1.7; */
 }
 .section-profile-second {
     position: relative; 
-    left: 780px;
-    top: 100px; 
+    /* left: 780px;
+    top: 100px; */ 
     letter-spacing: 0.25em;
     display:flex; 
-    /* float: right;
-    margin: 0 auto;  */  
+    float: left;
+    margin: 0 auto;   
 }
 
 .description {
@@ -176,4 +181,16 @@ html {
 
 .ul-skills {
     line-height: 29px;
+}
+
+.section-profile {
+    position: relative; 
+    /* left:825px;
+    top: 90px; */ 
+    letter-spacing: 0.10em;
+    display:flex;
+    flex-wrap: wrap;
+    float: left;
+    font-size: 38px;
+
 }
