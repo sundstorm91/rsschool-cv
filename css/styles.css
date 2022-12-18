@@ -2,12 +2,13 @@
 h1 {
     color:#d0b084;
     margin-bottom: 0.25em;
+    text-transform: uppercase;
 }
 
 h2 {
     color:#000000;
     font-size: 1em;
-}
+} 
 
 .experience {
     display:flex;
@@ -89,6 +90,7 @@ html {
   
 .section {
     width: 50%;
+   
 }
 
 @media (max-width: 768px) {
@@ -131,36 +133,41 @@ html {
     bottom: 50px;
     left: 170px;
     
+   
+    
 }
+.abc1 {
+    width: 100%;
+}
+
 #abc {
     width: 100%;
 }
 
 .section-profile-title {
-    position: relative;
+    position: relative; 
     left:825px;
-    top: 90px;
+    top: 90px; 
     letter-spacing: 0.10em;
     display:flex;
+    flex-wrap: wrap;
+    /* float: right;
+    margin: 0 auto;
+    line-height: 1.7; */
 }
-.section-profile-title-second {
-    position: relative;
+.section-profile-second {
+    position: relative; 
     left: 780px;
-    top: 100px;
+    top: 100px; 
     letter-spacing: 0.25em;
-    display:flex;
-    
+    display:flex; 
+    /* float: right;
+    margin: 0 auto;  */  
 }
 
 .description {
     line-height: 29px;
     
-}
-
-
-.rs {
-    position: relative;
-    right: 1290px;
 }
 
 .contacts-list {
