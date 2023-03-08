@@ -113,7 +113,18 @@ html {
     justify-content:flex-end;
     align-items:center;
     background-color: #d0b084;
-} 
+}
+
+.rs {
+    width: 50%;
+}
+
+
+
+/* .footer-name {
+    padding-right: 20px;
+
+} */
 
 .contacts-list a {
     color:#000000;
